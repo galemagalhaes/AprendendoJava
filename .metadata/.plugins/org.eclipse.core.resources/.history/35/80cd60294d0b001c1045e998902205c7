@@ -1,0 +1,17 @@
+package fundamentos;
+
+public class Temperatura 
+{
+	public static void main(String[] args) 
+	{
+		double f = 120;
+		double c = 0;
+		double AJUSTE = 32;
+		double FATOR = (5.0/9.0);
+		double resultado = ((f - AJUSTE) * FATOR)
+		
+		System.out.println(resultado + "ºC");
+		
+	}
+
+}
