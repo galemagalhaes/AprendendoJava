@@ -1,0 +1,18 @@
+package fundamentos.tipos;
+
+public class PrimitivoVsObjeto 
+{
+	public static void main(String[] args) 
+	{
+		String s = new String("texto");
+		s.toUpperCase();
+		
+		//Tudo em Java é objeto menos os tipos primitivos
+		
+		//Wrappers são a versão objeto dos tipos primitivos!
+		
+		int a = 123;
+		System.out.println(a);
+	}
+
+}
