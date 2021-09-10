@@ -21,6 +21,7 @@ public class DesafioCalculadora
 		resultado = "-".equals(op) ? num1 - num2 : resultado;
 		resultado = "*".equals(op) ? num1 * num2 : resultado;
 		resultado = "/".equals(op) ? num1 / num2 : resultado;
+		resultado = "%".equals(op) ? num1 % num2 : resultado;
 		
 		System.out.printf("%.2f %s %.2f = %.2f",
 							num1, op, num2, resultado);
