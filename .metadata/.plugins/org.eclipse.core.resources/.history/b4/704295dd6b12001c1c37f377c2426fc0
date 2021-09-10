@@ -36,7 +36,7 @@ public class SwitchComBreak {
 			conceito = "não encontrado";
 		
 		}
-		System.out.println("Conceito é: " + conceito);
+		System.out.println("Conceito é " + conceito);
 
 		entrada.close();
 	}
