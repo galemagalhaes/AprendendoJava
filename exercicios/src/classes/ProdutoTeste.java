@@ -3,16 +3,16 @@ package classes;
 public class ProdutoTeste {
 	public static void main(String[] args) {
 		
-		Produto prod1 = new Produto("Notebook", 4356.89, 0.25);		
+		Produto prod1 = new Produto("Notebook", 4356.89);		
 		
 		
 		var prod2 = new Produto();
 		prod2.nome = "Caneta Preta";
 		prod2.preco = 12.56;
-		prod2.desconto = 0.29;
+		Produto.desconto = 0.50;
 		
-		System.out.println(prod1.nome);
-		System.out.println(prod2.nome);
+		System.out.println(prod1.nome + " " + prod1.precoComDesconto());
+		System.out.println(prod2.nome + " " + prod2.precoComDesconto());
 		
 		double precoFinal1 = prod1.precoComDesconto(0);
 		double precoFinal2 = prod2.precoComDesconto(0.1);
