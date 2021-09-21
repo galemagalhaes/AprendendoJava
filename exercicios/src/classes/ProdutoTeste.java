@@ -2,10 +2,9 @@ package classes;
 
 public class ProdutoTeste {
 	public static void main(String[] args) {
-		Produto prod1 = new Produto();
-		prod1.nome = "Notebook";
-		prod1.preco = 4356.89;
-		prod1.desconto = 0.25;
+		
+		Produto prod1 = new Produto("Notebook", 4356.89, 0.25);		
+		
 		
 		var prod2 = new Produto();
 		prod2.nome = "Caneta Preta";
