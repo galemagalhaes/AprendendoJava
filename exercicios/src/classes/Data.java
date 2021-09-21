@@ -16,15 +16,18 @@ public class Data {
 		this.dia = dia;
 		this.mes = mes;
 		this.ano = ano;
-	}
+	}	
 	
-	//essa forma é melhor!!!
 	String obterDataFormatada() {
-		return String.format("%d/%d/%d", dia, mes, ano);
+		final String formato = "%d/%d/%d";  //essa constante é local
+		return String.format(formato, dia, mes, ano);
 	}
 	
 	void imprimirDataFormatada() {
-		System.out.printf(obterDataFormatada());
+		System.out.println(this.obterDataFormatada());
 	}
+	
+	//String formato = "%d/%d/%d"  ---- essa seria uma variável de instância, 
+	//podendo ser acessada em qualquer método.
 	
 }
