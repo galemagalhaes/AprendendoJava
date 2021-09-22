@@ -26,7 +26,7 @@ public static void main(String[] args) {
 	}
 	
 	double media = total / notas.length;
-	System.out.println("A média é " + media + "!");
+	System.out.println("A média das notas é " + media + "!");
 
 	entrada.close();
 }
