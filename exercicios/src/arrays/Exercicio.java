@@ -13,9 +13,11 @@ public class Exercicio {
 		notasAlunoA[2] = 6.7;
 		notasAlunoA[3] = 9.7;
 		
+		
 		System.out.println(Arrays.toString(notasAlunoA));
 		System.out.println(notasAlunoA[0]);
 		System.out.println(notasAlunoA[notasAlunoA.length - 1]);
+		//System.out.println(notasAlunoA[4]); ERRO!
 		
 		//para percorrer o array
 		double totalAlunoA = 0;
